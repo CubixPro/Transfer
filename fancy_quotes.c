@@ -10,7 +10,7 @@ int main()
         char str1[100];
         int found = 0;
         fgets(str1,100,stdin);
-        char *str = str1
+        char *str = str1;
         while(*str!= '\n')
         {
             if (*str == 'n' && *(str++) == 'o' && *(str++) == 't')
