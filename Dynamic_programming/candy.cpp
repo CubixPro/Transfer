@@ -1,6 +1,7 @@
     #include <algorithm>
     #include <iostream>
     #include <vector>
+    #include <array>
     #define mod 1000000007
 
     typedef long long int lld;
