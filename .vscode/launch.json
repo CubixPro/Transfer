@@ -1,0 +1,11 @@
+{
+    "configurations": [
+    
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Competitive",
+            "request": "launch",
+            "mainClass": "Competitive"
+        }
+    ]
+}

@@ -125,16 +125,16 @@ int main()
         }
         sort(prime, prime + num + 1);
         unique(prime, prime + num + 1);
-        //show(prime, num + 1);
+        show(prime, num + 1);
         //show(orig, num + 1);
         string encrypted = "";
-        for(int i = 0; i < num + 1 ; i++)
+        /*for(int i = 0; i < num + 1 ; i++)
         {
             long int val = orig[i];
             long int *p1 = (long int*)std::bsearch(&val, prime, 26, sizeof(prime[0]), compare); 
             encrypted += (char)(65 + (p1 - prime));
 
         }
-        printf("Case #%d: %s\n", i, encrypted.c_str());
+        printf("Case #%d: %s\n", i, encrypted.c_str());*/
     }
 }

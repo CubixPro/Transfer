@@ -5,6 +5,7 @@ int main()
     int n;
     scanf("%d",&n);
     int found = 0;
+    fflush(stdin);
     outer:for(int i = 0;i<n;i++)
     {
         char str1[100];
@@ -23,5 +24,6 @@ int main()
         if (found == 0)
         printf("fancy");
         found = 0;
+        fflush(stdin);
     }
 }

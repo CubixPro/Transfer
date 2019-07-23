@@ -9,9 +9,10 @@ int main()
         long int n;
         scanf("%ld", &n);
         char *string = (char*)malloc((n + 1) * sizeof(char));
-        scanf("%s", string);
         char ch;
-        scanf(" %c", &ch);
+        scanf("%s %c", string, &ch);
+        
+       
         long int count = 0;
         long int val = n*(n + 1)/2; 
         for(int i = 0 ; i < n ; i++)
@@ -27,6 +28,7 @@ int main()
             }
             
         }
+        val = val - count*(count + 1)/2;
         printf("%ld\n", val);
     }
 }
