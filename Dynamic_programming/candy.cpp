@@ -1,7 +1,5 @@
     #include <algorithm>
     #include <iostream>
-    #include <vector>
-    #include <array>
     #define mod 1000000007
 
     typedef long long int lld;
@@ -11,8 +9,8 @@
         while(pow != 0)
         {
            if(pow % 2 == 0)
-                result = result*n;
-            n = n * n;
+                result = ((result%mod)*(n%mod))%mod;
+            n = ((n%mod) * (n%mod));
             pow = pow/2;
         }
         return result;
@@ -36,6 +34,7 @@
                {     
                    printf("%lld ", i);
                    count += pow(calc(i, dp), (n - 1)/i);
+                   count = count%mod;
                }
             }
             dp[n] = count;
