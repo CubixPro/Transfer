@@ -28,7 +28,7 @@
         {
             //printf("hello\n");
             lld count = 0;
-            for (lld i = 1; i * i <= (n - 1); i++)
+            for (lld i = 1; i < (n - 1); i++)
             {
                 if ((n - 1) % i == 0)
                {     
