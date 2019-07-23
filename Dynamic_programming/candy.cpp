@@ -1,6 +1,8 @@
     #include <algorithm>
     #include <iostream>
+    #include <vector>
     #define mod 1000000007
+
     typedef long long int lld;
     lld pow(lld n, lld pow)
     {
