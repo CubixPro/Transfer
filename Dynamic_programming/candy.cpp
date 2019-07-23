@@ -26,13 +26,13 @@
             return dp[n];
         else
         {
-            printf("hello\n");
+            //printf("hello\n");
             lld count = 0;
             for (lld i = 1; i * i <= (n - 1); i++)
             {
                 if ((n - 1) % i == 0)
                {     
-                   printf("%lld ", i);
+                   //printf("%lld ", i);
                    count += pow(calc(i, dp), (n - 1)/i);
                    count = count%mod;
                }
