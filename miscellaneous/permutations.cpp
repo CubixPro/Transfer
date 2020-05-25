@@ -8,7 +8,7 @@ fstream f;
 
 void permutations(string str, string perm, int i, int x){
     if(i == perm_length){
-            f << perm << '\n';
+            f << '"' << perm << "\", ";
         return ;
     }
     else if(x == str_length){
@@ -27,9 +27,9 @@ void permutations(string str, string perm, int i, int x){
     }
 }
 int main(){
-    perm_length = 6;
-    str_length = 10;
+    perm_length = 4;
+    str_length = 4;
     f.open("permutations.txt", ios::app);
-    permutations("abcdefghij", "      ", 0, 0);
+    permutations("abcd", "    ", 0, 0);
     f.close();
 }

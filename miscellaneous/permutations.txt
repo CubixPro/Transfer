@@ -1,0 +1,1 @@
+"abcd", "abdc", "acbd", "adbc", "acdb", "adcb", "bacd", "badc", "cabd", "dabc", "cadb", "dacb", "bcad", "bdac", "cbad", "dbac", "cdab", "dcab", "bcda", "bdca", "cbda", "dbca", "cdba", "dcba", 

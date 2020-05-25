@@ -3,3 +3,4 @@
 *.o
 .vscode
 helloworld*
+primes.txt
