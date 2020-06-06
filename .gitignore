@@ -4,3 +4,11 @@
 .vscode
 helloworld*
 primes.txt
+1.cpp
+2.cpp
+3.cpp
+4.cpp
+*.txt
+we
+*.json
+.gitignore
